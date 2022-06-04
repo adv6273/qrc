@@ -60,4 +60,35 @@ p{
 }
 .first{
     padding-bottom: 5px;
+    font-size: 23px;
+}
+@media screen and (max-width: 1440px) {
+    .main-cont{
+        width: 35%;
+        position: absolute;
+        margin: 25% 30%;
+        font-size: 50px;
+    }
+        /* .main-cont .first {
+            font-size: 50px;
+            
+        } */
+    
+}
+@media screen and (max-width: 420px) {
+    .main-cont{
+        width: 80%;
+        position: absolute;
+        margin: 30% 10%;
+        font-size: 1.5em;
+    }
+    div  p {
+        font-size: 20px;
+       
+    }
+    div p.first{
+        font-size: 25px;
+        padding-bottom: 0;
+        margin-bottom: 0%;
+    }
 }
